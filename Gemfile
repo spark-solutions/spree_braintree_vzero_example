@@ -61,6 +61,13 @@ gem 'newrelic_rpm'
 gem 'sidekiq'
 gem 'sinatra', require: nil
 
+# file uploades & assets
+gem 'paperclip' # Image Rescaling for aws
+gem 'aws-sdk', '< 2.0' # aws
+gem 'fog', '~>1.20'
+gem 'asset_sync'
+
+# Spree gems
 gem 'spree', '3.0.4'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
