@@ -84,7 +84,7 @@ GEM
       rails (>= 3.1, < 5.0)
     carmen (1.0.2)
       activesupport (>= 3.0.0)
-    celluloid (0.16.1)
+    celluloid (0.16.0)
       timers (~> 4.0.0)
     cldr-plurals-runtime-rb (1.0.0)
     climate_control (0.0.3)
