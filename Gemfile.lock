@@ -18,6 +18,13 @@ GIT
     spree_gateway (3.0.0.beta)
       spree_core (~> 3.0.0)
 
+GIT
+  remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
+  revision: 27b58d9379970d9fe4e9801e257bdd5b72a97f0c
+  specs:
+    spree_braintree_vzero (0.0.1.alpha)
+      spree_core (~> 3.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -482,6 +489,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (= 3.0.4)
   spree_auth_devise!
+  spree_braintree_vzero!
   spree_gateway!
   spring
   turbolinks
