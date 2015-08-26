@@ -57,9 +57,8 @@ gem 'rollbar', '~> 1.5.0'
 # newrelic
 gem 'newrelic_rpm'
 
-# sidekiq
-gem 'sidekiq'
-gem 'sinatra', require: nil
+# caching
+gem 'dalli' # memcache
 
 # file uploades & assets
 gem 'paperclip' # Image Rescaling for aws
