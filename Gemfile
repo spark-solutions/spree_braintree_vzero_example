@@ -59,6 +59,7 @@ gem 'newrelic_rpm'
 
 # caching
 gem 'dalli' # memcache
+gem 'rack-cache' # http caching
 
 # file uploades & assets
 gem 'paperclip' # Image Rescaling for aws
