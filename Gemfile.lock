@@ -19,8 +19,8 @@ GIT
       spree_core (~> 3.0.0)
 
 GIT
-  remote: https://7df1b94296418715e94972402fa81d8e5a2a0358:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: 2b4ee548a1aa365a105df190ccf0270bf1d74bc3
+  remote: https://82f52485912a17a2da2bbea00ec10c8d6fe1cfd1:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
+  revision: 383cd810348b58a607d6ccfe6ea88a3fb8606b17
   specs:
     spree_braintree_vzero (0.0.2.alpha)
       braintree
@@ -89,10 +89,6 @@ GEM
       json (~> 1.4)
       nokogiri (>= 1.4.4)
     bcrypt (3.1.10)
-    better_errors (2.1.1)
-      coderay (>= 1.0.0)
-      erubis (>= 2.6.6)
-      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.5.1)
@@ -101,6 +97,7 @@ GEM
     braintree (2.48.1)
       builder (>= 2.0.0)
     builder (3.2.2)
+    byebug (6.0.2)
     camertron-eprun (1.1.0)
     cancancan (1.10.1)
     canonical-rails (0.0.11)
@@ -112,7 +109,6 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.7)
       climate_control (>= 0.0.3, < 1.0)
-    coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -276,7 +272,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    method_source (0.8.2)
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.8.0)
@@ -310,18 +305,6 @@ GEM
     premailer-rails (1.8.2)
       actionmailer (>= 3, < 5)
       premailer (~> 1.7, >= 1.7.9)
-    pry (0.10.1)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    pry-nav (0.2.4)
-      pry (>= 0.9.10, < 0.11.0)
-    pry-remote (0.1.8)
-      pry (~> 0.9)
-      slop (~> 3.0)
-    pry-stack_explorer (0.4.9.2)
-      binding_of_caller (>= 0.7)
-      pry (>= 0.9.11)
     puma (2.13.4)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
@@ -383,7 +366,6 @@ GEM
       rdoc (~> 4.0)
     select2-rails (3.5.9.1)
       thor (~> 0.14)
-    slop (3.6.0)
     spree (3.0.4)
       spree_api (= 3.0.4)
       spree_backend (= 3.0.4)
@@ -492,8 +474,7 @@ PLATFORMS
 DEPENDENCIES
   asset_sync
   aws-sdk (< 2.0)
-  better_errors
-  binding_of_caller
+  byebug
   coffee-rails (~> 4.1.0)
   dalli
   fog (~> 1.20)
@@ -502,10 +483,6 @@ DEPENDENCIES
   newrelic_rpm
   paperclip
   pg
-  pry
-  pry-nav
-  pry-remote
-  pry-stack_explorer
   puma
   rack-cache
   rails (= 4.2.4)
