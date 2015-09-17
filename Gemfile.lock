@@ -19,7 +19,7 @@ GIT
       spree_core (~> 3.0.0)
 
 GIT
-  remote: https://82f52485912a17a2da2bbea00ec10c8d6fe1cfd1:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
+  remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
   revision: 383cd810348b58a607d6ccfe6ea88a3fb8606b17
   specs:
     spree_braintree_vzero (0.0.2.alpha)
