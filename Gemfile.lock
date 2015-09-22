@@ -20,11 +20,12 @@ GIT
 
 GIT
   remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: 0da245fb7df21b45f18bab61f10078915b58e1c2
+  revision: 7e021b0ca8b9180405d188ced82d521077642ace
   specs:
     spree_braintree_vzero (0.0.2.alpha)
       braintree
       spree_core (~> 3.0.4)
+      whenever
 
 GEM
   remote: https://rubygems.org/
@@ -104,6 +105,7 @@ GEM
       rails (>= 3.1, < 5.0)
     carmen (1.0.2)
       activesupport (>= 3.0.0)
+    chronic (0.10.2)
     cldr-plurals-runtime-rb (1.0.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -249,7 +251,7 @@ GEM
       activesupport (>= 4.1.0)
     highline (1.6.21)
     htmlentities (4.3.4)
-    httparty (0.13.5)
+    httparty (0.13.6)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
@@ -467,6 +469,8 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
