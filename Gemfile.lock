@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: e2b9591ef183ea01abe3a9d90346c573b9f435cb
+  revision: 238f778552658c28e5d5f62a4a6903f9dbefec25
   specs:
     spree_braintree_vzero (0.0.2.alpha)
       braintree
@@ -95,7 +95,7 @@ GEM
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
-    braintree (2.48.1)
+    braintree (2.49.0)
       builder (>= 2.0.0)
     builder (3.2.2)
     byebug (6.0.2)
@@ -251,7 +251,7 @@ GEM
       activesupport (>= 4.1.0)
     highline (1.6.21)
     htmlentities (4.3.4)
-    httparty (0.13.6)
+    httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
@@ -276,7 +276,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.6.2)
     mini_portile (0.6.2)
-    minitest (5.8.0)
+    minitest (5.8.1)
     monetize (1.3.1)
       money (~> 6.6)
     money (6.6.1)
