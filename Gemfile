@@ -72,4 +72,4 @@ gem 'spree', '3.0.4'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 #gem 'spree_braintree_vzero', path: '~/GitHub/spree_braintree_vzero'
-gem 'spree_braintree_vzero', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git"
+gem 'spree_braintree_vzero', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git", branch: '3-0-stable'
