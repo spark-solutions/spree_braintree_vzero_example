@@ -21,6 +21,7 @@ GIT
 GIT
   remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
   revision: cebb3e0271641f81bda6efc0640d77a2e023600c
+  branch: 3-0-stable
   specs:
     spree_braintree_vzero (0.3.0)
       braintree
@@ -95,7 +96,7 @@ GEM
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
-    braintree (2.49.0)
+    braintree (2.51.0)
       builder (>= 2.0.0)
     builder (3.2.2)
     byebug (6.0.2)
