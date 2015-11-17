@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: f57107fc88f8bfc116ebd5e26bc8fc0e98443e5e
+  revision: 06d6f6b90584451fca99f28c9408a7c952566ab2
   branch: master
   specs:
     spree_braintree_vzero (3.0.0.beta)
