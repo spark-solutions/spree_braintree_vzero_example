@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.4'
+gem 'rails', '4.1.11'
 # Use PostgreSQL as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -68,8 +68,8 @@ gem 'fog', '~>1.20'
 gem 'asset_sync'
 
 # Spree gems
-gem 'spree', '3.0.0'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
-#gem 'spree_braintree_vzero', path: '~/GitHub/spree_braintree_vzero'
-gem 'spree_braintree_vzero', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git", branch: 'master'
+gem 'spree', github: 'spree/spree', branch: '2-4-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
+# gem 'spree_braintree_vzero', path: '~/GitHub/spree_braintree_vzero'
+gem 'spree_braintree_vzero', git: "https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git", branch: '2-4-dev'

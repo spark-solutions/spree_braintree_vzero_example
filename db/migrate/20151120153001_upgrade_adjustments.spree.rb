@@ -10,14 +10,13 @@ class UpgradeAdjustments < ActiveRecord::Migration
       # Account for possible invalid data
       next if adjustment.source.nil?
       adjustment.source.update_column(:cost, adjustment.amount)
-      adjustment.destroy!
+      adjustment.destroy
     end
 
     # Tax adjustments have their sources altered
     Spree::Adjustment.where(:originator_type => "Spree::TaxRate").find_each do |adjustment|
-      adjustment.source_id = adjustment.originator_id
-      adjustment.source_type = "Spree::TaxRate"
-      adjustment.save!
+      adjustment.source = adjustment.originator
+      adjustment.save
     end
 
     # Promotion adjustments have their source altered also
@@ -35,7 +34,7 @@ class UpgradeAdjustments < ActiveRecord::Migration
         # Fail silently. This is primarily in instances where the calculator no longer exists
       end
 
-      adjustment.save!
+      adjustment.save
     end
   end
 end
