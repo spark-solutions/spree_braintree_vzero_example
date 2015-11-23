@@ -8,7 +8,7 @@ AssetSync.configure do |config|
   config.existing_remote_files = 'ignore'
   #
   # Increase upload performance by configuring your region
-  config.fog_region = 'us-west-2'
+  config.fog_region = ENV['AWS_REGION']
   #
   # Automatically replace files with their equivalent gzip compressed version
   config.gzip_compression = true

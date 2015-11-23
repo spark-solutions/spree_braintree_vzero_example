@@ -1,7 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.domain = 'spree-braintree-vzero-2-4-stag.herokuapp.com'
-  config.cdn = 's3.amazonaws.com/spree-braintree-vzero-2-4-staging'
+  config.cdn = "s3-#{ENV['AWS_REGION']}.amazonaws.com/spree-braintree-vzero-2-4-staging"
 
   # Code is not reloaded between requests.
   config.cache_classes = true
