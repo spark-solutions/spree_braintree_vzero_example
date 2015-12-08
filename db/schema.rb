@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151123143035) do
+ActiveRecord::Schema.define(version: 20151208114626) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -102,6 +102,8 @@ ActiveRecord::Schema.define(version: 20151123143035) do
     t.datetime "updated_at"
     t.string   "paypal_email"
     t.string   "advanced_fraud_data"
+    t.string   "risk_id"
+    t.string   "risk_decision"
   end
 
   create_table "spree_calculators", force: true do |t|
