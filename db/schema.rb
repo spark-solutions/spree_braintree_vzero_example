@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151204100327) do
+ActiveRecord::Schema.define(version: 20151216140816) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -104,6 +104,8 @@ ActiveRecord::Schema.define(version: 20151204100327) do
     t.string   "advanced_fraud_data"
     t.string   "risk_id"
     t.string   "risk_decision"
+    t.string   "braintree_last_digits", limit: 4
+    t.string   "braintree_card_type"
   end
 
   add_index "spree_braintree_checkouts", ["state"], name: "index_spree_braintree_checkouts_on_state", using: :btree
