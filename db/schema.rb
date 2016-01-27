@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151216151309) do
+ActiveRecord::Schema.define(version: 20160115133848) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -106,6 +106,7 @@ ActiveRecord::Schema.define(version: 20151216151309) do
     t.string   "risk_decision"
     t.string   "braintree_last_digits", limit: 4
     t.string   "braintree_card_type"
+    t.boolean  "admin_payment"
   end
 
   create_table "spree_calculators", force: true do |t|
