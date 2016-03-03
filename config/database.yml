@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: spree_braintre_vzero_3_0_development
+  database: spree_braintre_vzero_3_0_stable_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
