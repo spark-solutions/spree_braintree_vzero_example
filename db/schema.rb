@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160113132841) do
+ActiveRecord::Schema.define(version: 20160329115808) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -155,6 +155,25 @@ ActiveRecord::Schema.define(version: 20160113132841) do
   add_index "spree_credit_cards", ["address_id"], name: "index_spree_credit_cards_on_address_id", using: :btree
   add_index "spree_credit_cards", ["payment_method_id"], name: "index_spree_credit_cards_on_payment_method_id", using: :btree
   add_index "spree_credit_cards", ["user_id"], name: "index_spree_credit_cards_on_user_id", using: :btree
+
+  create_table "spree_currencies", force: :cascade do |t|
+    t.string   "num_code",                   null: false
+    t.string   "char_code",                  null: false
+    t.string   "name",                       null: false
+    t.boolean  "basic",      default: false
+    t.string   "locale"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spree_currency_converters", force: :cascade do |t|
+    t.integer  "currency_id",               null: false
+    t.datetime "date_req",                  null: false
+    t.float    "nominal",     default: 1.0, null: false
+    t.float    "value",                     null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "spree_customer_returns", force: :cascade do |t|
     t.string   "number"
