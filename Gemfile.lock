@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/spree-contrib/spree_multi_currency.git
+  revision: 2f2733a4fbbe802daed5a57c4b32b061edc97ae4
+  branch: 3-0-stable
+  specs:
+    spree_multi_currency (3.0.0)
+      spree_core (~> 3.0.0)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: 62f67c5e810c2d1cbdec6462718216661c08db43
   branch: 3-0-stable
@@ -79,11 +87,11 @@ GIT
 
 GIT
   remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: d1e75f4bd6d11676f352eafc2fbb39bb36c5bb94
+  revision: fee80871e7644e3b52eff8a9ff8c6c81e9f388fa
   branch: 3-0-stable
   specs:
     spree_braintree_vzero (3.0.0.beta)
-      braintree
+      braintree (>= 2.40.0)
       spree_core (~> 3.0.0)
       whenever
 
@@ -154,7 +162,7 @@ GEM
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
-    braintree (2.58.0)
+    braintree (2.59.0)
       builder (>= 2.0.0)
     builder (3.2.2)
     byebug (8.2.2)
@@ -516,6 +524,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_braintree_vzero!
   spree_gateway!
+  spree_multi_currency!
   spring
   turbolinks
   uglifier (>= 1.3.0)
