@@ -85,8 +85,10 @@ GIT
     spree_gateway (3.0.0)
       spree_core (~> 3.0.0)
 
-PATH
-  remote: ~/Spark/spree_braintree_vzero
+GIT
+  remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
+  revision: 7a52dbd41bed31c11bb3e75af23343fafe96eaf0
+  branch: 3-0-stable
   specs:
     spree_braintree_vzero (3.0.0.beta)
       braintree (>= 2.40.0)
