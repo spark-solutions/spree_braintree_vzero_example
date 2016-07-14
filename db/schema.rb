@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151217090788) do
+ActiveRecord::Schema.define(version: 20160714120940) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -276,6 +276,7 @@ ActiveRecord::Schema.define(version: 20151217090788) do
     t.boolean  "considered_risky",                                           default: false
     t.string   "guest_token"
     t.integer  "state_lock_version",                                         default: 0,       null: false
+    t.integer  "store_id"
   end
 
   add_index "spree_orders", ["approver_id"], name: "index_spree_orders_on_approver_id", using: :btree
@@ -288,6 +289,7 @@ ActiveRecord::Schema.define(version: 20151217090788) do
   add_index "spree_orders", ["number"], name: "index_spree_orders_on_number", using: :btree
   add_index "spree_orders", ["ship_address_id"], name: "index_spree_orders_on_ship_address_id", using: :btree
   add_index "spree_orders", ["shipping_method_id"], name: "index_spree_orders_on_shipping_method_id", using: :btree
+  add_index "spree_orders", ["store_id"], name: "index_spree_orders_on_store_id", using: :btree
   add_index "spree_orders", ["user_id", "created_by_id"], name: "index_spree_orders_on_user_id_and_created_by_id", using: :btree
   add_index "spree_orders", ["user_id"], name: "index_spree_orders_on_user_id", using: :btree
 
