@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/spree-contrib/spree_braintree_vzero.git
+  revision: 29fd249d1f238521ec7157e36480cac429b2069a
+  branch: 2-3-dev
+  specs:
+    spree_braintree_vzero (2.3.0.beta)
+      braintree
+      spree_core (~> 2.3.0)
+      whenever
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: 87007e3a9276ba5b0d644d6a3edcf988631c41b1
   branch: 2-3-stable
@@ -72,16 +82,6 @@ GIT
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
 
-GIT
-  remote: https://0c6d84ed434ec986cc4230fb2891c5a54d00e974:x-oauth-basic@github.com/spark-solutions/spree_braintree_vzero.git
-  revision: 2a4a0c9aa191202bcb268194cbfb093d78794d3f
-  branch: 2-3-dev
-  specs:
-    spree_braintree_vzero (2.3.0.beta)
-      braintree
-      spree_core (~> 2.3.0)
-      whenever
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,7 +140,7 @@ GEM
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    braintree (2.56.0)
+    braintree (2.63.0)
       builder (>= 2.0.0)
     builder (3.2.2)
     byebug (8.2.1)
@@ -437,7 +437,7 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
-    whenever (0.9.4)
+    whenever (0.9.7)
       chronic (>= 0.6.3)
     xml-simple (1.1.5)
 
