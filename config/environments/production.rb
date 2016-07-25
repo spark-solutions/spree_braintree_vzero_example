@@ -1,4 +1,4 @@
-Rails.application.configure do
+SpreeBraintreeVzero22::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.domain = 'spree-braintree-vzero-3-0.herokuapp.com'
   config.cdn = 's3.amazonaws.com/spree-braintree-vzero-3-0'
@@ -94,9 +94,6 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-  # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
 
   # Amazon S3 for paperclip
   config.paperclip_defaults = {

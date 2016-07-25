@@ -24,7 +24,9 @@ gem 'jbuilder', '~> 1.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 
 # secure configuration
-gem "figaro"
+gem 'figaro'
+
+gem 'httparty'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -80,5 +82,4 @@ gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-2-stable'
 gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: '2-2-dev'
 # gem 'spree_braintree_vzero', path: '/Users/maria/spree_braintree_vzero', branch: '2-2-dev'
-
 

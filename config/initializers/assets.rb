@@ -2,11 +2,11 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 SpreeBraintreeVzero22::Application.config.assets.version = '1.0'
-SpreeBraintreeVzero22::Application.config.assets.precompile += [/.*\.js/,/.*\.css/, 'jquery.alerts/images/*', 'jquery-ui/*' ]
+SpreeBraintreeVzero22::Application.config.assets.precompile += ['jquery.alerts/images/*', 'jquery-ui/*' ]
 
 # Add additional assets to the asset load path
-# Rails.application.config.assets.paths << Emoji.images_path
+# SpreeBraintreeVzero22::Application.config.assets.paths << Emoji.images_path
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+# SpreeBraintreeVzero22::Application.config.assets.precompile += %w( search.js )

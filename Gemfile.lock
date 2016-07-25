@@ -315,6 +315,8 @@ GEM
       activerecord (>= 4.0.0)
     highline (1.6.21)
     hike (1.2.3)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     inflecto (0.0.2)
     ipaddress (0.8.3)
@@ -343,6 +345,7 @@ GEM
       i18n (>= 0.6.4, <= 0.7.0)
       sixarm_ruby_unaccent (>= 1.1.1, < 2)
     multi_json (1.12.1)
+    multi_xml (0.5.5)
     newrelic_rpm (3.16.0.318)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
@@ -467,6 +470,7 @@ DEPENDENCIES
   dalli
   figaro
   fog (~> 1.20)
+  httparty
   jbuilder (~> 1.2)
   jquery-rails
   newrelic_rpm

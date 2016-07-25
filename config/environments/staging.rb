@@ -1,7 +1,7 @@
-Rails.application.configure do
+SpreeBraintreeVzero22::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.domain = 'spree-braintree-vzero-2-3-stag.herokuapp.com'
-  config.cdn = "s3-#{ENV['AWS_REGION']}.amazonaws.com/spree-braintree-vzero-2-3-staging"
+  config.domain = 'spree-braintree-vzero-2-2-stag.herokuapp.com'
+  config.cdn = "s3-#{ENV['AWS_REGION']}.amazonaws.com/spree-braintree-vzero-2-2-staging"
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -94,9 +94,6 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-  # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
 
   # Amazon S3 for paperclip
   config.paperclip_defaults = {

@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+SpreeBraintreeVzero22::Application.routes.draw do
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
