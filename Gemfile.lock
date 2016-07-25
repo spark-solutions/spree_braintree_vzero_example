@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree-contrib/spree_braintree_vzero.git
-  revision: d474defdb9a8a1220d712a8cd2a613a6137b5f10
+  revision: e7cefe4b7e1498f924a68de012f112c69e49aa7d
   branch: 2-2-dev
   specs:
     spree_braintree_vzero (2.3.0.beta)
@@ -253,7 +253,7 @@ GEM
       multi_json (~> 1.10)
     fog-local (0.3.0)
       fog-core (~> 1.27)
-    fog-openstack (0.1.8)
+    fog-openstack (0.1.9)
       fog-core (>= 1.40)
       fog-json (>= 1.0)
       ipaddress (>= 0.8)
