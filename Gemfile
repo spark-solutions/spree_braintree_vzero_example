@@ -52,7 +52,7 @@ group :production, :staging do
 end
 
 # rollbar
-gem 'rollbar', '~> 1.5.0'
+gem 'rollbar', '~> 2.12.0'
 
 # newrelic
 gem 'newrelic_rpm'
