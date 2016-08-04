@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree-contrib/spree_braintree_vzero.git
-  revision: e7cefe4b7e1498f924a68de012f112c69e49aa7d
+  revision: 4b02cf899d1fa1e56e878d102ecfaa9c0e53feb2
   branch: 2-2-dev
   specs:
     spree_braintree_vzero (2.3.0.beta)
@@ -253,7 +253,7 @@ GEM
       multi_json (~> 1.10)
     fog-local (0.3.0)
       fog-core (~> 1.27)
-    fog-openstack (0.1.9)
+    fog-openstack (0.1.10)
       fog-core (>= 1.40)
       fog-json (>= 1.0)
       ipaddress (>= 0.8)
@@ -299,7 +299,7 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (0.8.0)
+    fog-vsphere (1.0.0)
       fog-core
       rbvmomi (~> 1.8)
     fog-xenserver (0.2.3)
@@ -433,11 +433,11 @@ GEM
     tilt (1.4.1)
     trollop (2.1.2)
     truncate_html (0.9.2)
-    turbolinks (5.0.0)
+    turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
     tzinfo (0.3.51)
-    uglifier (3.0.0)
+    uglifier (3.0.1)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
