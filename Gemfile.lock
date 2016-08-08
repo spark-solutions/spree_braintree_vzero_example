@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree-contrib/spree_braintree_vzero.git
-  revision: 3c03daa64853fd15c9510378f08f701f98e91445
+  revision: 37942cf759a6dc44aab08b2e91d67e27b18dbc4d
   branch: 2-2-dev
   specs:
     spree_braintree_vzero (2.3.0.beta)
