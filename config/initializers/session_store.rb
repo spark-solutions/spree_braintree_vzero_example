@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Rails.application.config.session_store :cookie_store, key: '_spree-braintree-vzero-3-0_session'
+Rails.application.config.session_store :cookie_store, key: '_spree_braintree_vzero_example_session'
