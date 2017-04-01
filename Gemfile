@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.4'
@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -52,7 +52,7 @@ group :production, :staging do
 end
 
 # rollbar
-gem 'rollbar', '~> 1.5.0'
+gem 'rollbar'
 
 # newrelic
 gem 'newrelic_rpm'
@@ -68,7 +68,7 @@ gem 'fog', '~>1.20'
 gem 'asset_sync'
 
 # Spree gems
-gem 'spree', github: 'spree/spree', branch: 'master'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: 'master'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
-gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: 'master'
+gem 'spree', github: 'spree/spree', branch: '3-1-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-1-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-1-stable'
+gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: '3-1-stable'
